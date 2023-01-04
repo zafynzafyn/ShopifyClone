@@ -1,0 +1,87 @@
+#footer {
+    .footerMainCont {
+       
+        .footerCont {
+            height: 300px;
+            margin-right: 20px;
+            margin-left: 20px;
+            background-color: rgb(250,251,251);
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 1rem;
+            align-items: center;
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+
+
+            .gridInfo{
+                margin-left: 60px;
+                .GInfoTitle {
+                    color: $titleColor;
+                    font-weight: bold;
+                    font-size: 12px;
+                    margin-bottom: 15px;
+                } 
+                .flexEx {
+                    display: flex;
+                    align-items: center;
+                }
+
+                p{
+                    font-size: 13px;
+                    color: $descrColor;
+                    line-height: 1.75rem;
+                    
+
+                    &:hover{
+                        color: rgb(80, 80, 80);
+                        cursor: pointer;
+                    }
+                }
+
+                img {
+                    height: 20px;
+                    width: 20px;
+                    margin-right: 8px;
+                    
+                }
+            }
+
+        }
+    }
+
+    .realFooter{
+        background-color: rgb(246,246,247);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+        border-radius: 0 0 12px 12px;
+        -webkit-border-radius: 0 0 12px 12px;
+        -moz-border-radius: 0 0 12px 12px;
+        -ms-border-radius: 0 0 12px 12px;
+        -o-border-radius: 0 0 12px 12px;
+        
+        
+        .realFooterCont{
+           display: flex;
+           align-items: center;
+
+           div {
+            font-size: 14px;
+            font-weight: bold;
+            color: grey;
+            margin-left: 30px;
+
+            &:hover {
+                cursor: pointer;
+                color: rgb(58, 58, 58);
+            }
+           }
+        }
+      
+    }
+}

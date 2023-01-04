@@ -1,0 +1,486 @@
+#nav-bar {
+  position: relative;
+  z-index: 1;
+}
+
+.navBar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  position: fixed;
+  background-color: white;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.leftnavinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftnavinfo p {
+  margin-right: 20px;
+  color: grey;
+  font-size: 14px;
+}
+
+.leftnavinfo p:hover {
+  -webkit-text-decoration: underline rgb(112, 111, 111);
+  text-decoration: underline rgb(112, 111, 111);
+  color: rgb(75, 74, 74);
+  cursor: pointer;
+}
+
+#nav-bar .rightSideInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-bar .rightSideInfo img {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+#nav-bar .rightSideInfo img:hover {
+  cursor: pointer;
+}
+
+#nav-bar .rightSideInfo p {
+  font-size: 14px;
+  color: grey;
+  margin-right: 15px;
+}
+
+#nav-bar .rightSideInfo p:hover {
+  color: rgb(75, 74, 74);
+  cursor: pointer;
+}
+
+.inputForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(109, 113, 117);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: rgb(250, 251, 251);
+  width: 130px;
+  height: 30px;
+  box-shadow: inset 0 0.75px 0 0.75px rgb(151, 151, 151);
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.inputForm .searchIc {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  margin-right: 2px;
+}
+
+.inputForm .placeholder {
+  margin-right: 35px;
+  color: grey;
+  font-size: 14px;
+}
+
+.inputForm .slashbtn {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(109, 113, 117);
+  color: grey;
+  border-radius: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 1px 6px 1px 6px;
+  box-shadow: 0 0 0 0.25px grey;
+}
+
+#heroI {
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.heroBod {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  height: 100%;
+  width: 100%;
+}
+
+.mainInfo {
+  margin-top: 100px;
+  padding-left: 80px;
+}
+
+.mainInfo h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.mainInfo .descI {
+  font-size: 18px;
+  color: grey;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  line-height: 2rem;
+}
+
+.mainInfo .titleInfo {
+  font-size: 20px;
+  color: rgb(32, 34, 35);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mainInfo .descII {
+  color: grey;
+  margin-bottom: 20px;
+  line-height: 1.5rem;
+}
+
+.mainInfo span {
+  color: grey;
+  -webkit-text-decoration: underline grey;
+  text-decoration: underline grey;
+}
+
+.optionBtnCont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.optionBtnCont .optionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: rgb(250, 251, 251);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-color: rgb(221, 221, 221);
+  box-shadow: 0 2px 0 0 rgb(221, 221, 221);
+  padding: 10px;
+}
+
+.optionBtnCont .optionBtn .btnspan {
+  color: rgb(32, 34, 35);
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.optionBtnCont .optionBtn img {
+  margin-right: 15px;
+}
+
+.optionBtnCont .optionBtn.optionBtn:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 0 0 rgb(221, 221, 221);
+}
+
+.bgImg {
+  position: absolute;
+  right: -220px;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+#heroII {
+  margin-bottom: 10px;
+}
+
+#heroII .mainCont {
+  height: 500px;
+  background-color: rgb(234, 250, 243);
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+#heroII .mainCont .leftSide {
+  display: block;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+#heroII .mainCont .leftSide .titleI {
+  font-size: 2rem;
+  color: rgb(32, 34, 35);
+  line-height: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#heroII .mainCont .leftSide .titleInfo {
+  color: rgb(32, 34, 35);
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+#heroII .mainCont .leftSide .descInfo {
+  color: grey;
+  line-height: 1.75rem;
+  margin-bottom: 25px;
+}
+
+#heroII .mainCont .leftSide .descInfo span {
+  -webkit-text-decoration: underline grey;
+  text-decoration: underline grey;
+}
+
+#heroII .mainCont .rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#heroII .mainCont .rightSide .RightSideCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 251, 251);
+  width: 400px;
+  height: 400px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  box-shadow: 8px 8px 0 0 black;
+}
+
+#heroII .mainCont .rightSide .RightSideCont .rightSideInfoCont {
+  width: 65%;
+  height: 50%;
+}
+
+#heroII .mainCont .rightSide .RightSideCont .rightSideInfoCont .RFC {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+
+#heroII .mainCont .rightSide .RightSideCont .rightSideInfoCont .RFC .rsic {
+  margin-right: 20px;
+}
+
+#heroII .mainCont .rightSide .RightSideCont .rightSideInfoCont .RFC .explain {
+  display: block;
+  color: rgb(32, 34, 35);
+  font-weight: bold;
+}
+
+#heroII .mainCont .rightSide .RightSideCont .rightSideInfoCont .RFC .explainInfo {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  line-height: 1.3rem;
+}
+
+#heroIII {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+#heroIII .mainCont {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+#heroIII .mainCont .community,
+#heroIII .mainCont .blogCont {
+  background-color: rgb(250, 251, 251);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-color: rgb(221, 221, 221);
+  box-shadow: 0 2px 0 0 rgb(221, 221, 221);
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+#heroIII .mainCont .community:hover,
+#heroIII .mainCont .blogCont:hover {
+  cursor: pointer;
+}
+
+#heroIII .mainCont .community {
+  background-color: rgb(244, 246, 255);
+  border: none;
+  box-shadow: none;
+}
+
+#heroIII .mainCont .community .descr {
+  font-size: 1.5rem;
+  font-weight: 500px;
+  color: rgb(32, 34, 35);
+  margin-top: 5px;
+}
+
+#heroIII .mainCont .blogCont .title {
+  color: rgb(32, 34, 35);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#heroIII .mainCont .blogCont .dscr {
+  color: grey;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+#footer .footerMainCont .footerCont {
+  height: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: rgb(250, 251, 251);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  align-items: center;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+#footer .footerMainCont .footerCont .gridInfo {
+  margin-left: 60px;
+}
+
+#footer .footerMainCont .footerCont .gridInfo .GInfoTitle {
+  color: rgb(32, 34, 35);
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+#footer .footerMainCont .footerCont .gridInfo .flexEx {
+  display: flex;
+  align-items: center;
+}
+
+#footer .footerMainCont .footerCont .gridInfo p {
+  font-size: 13px;
+  color: grey;
+  line-height: 1.75rem;
+}
+
+#footer .footerMainCont .footerCont .gridInfo p:hover {
+  color: rgb(80, 80, 80);
+  cursor: pointer;
+}
+
+#footer .footerMainCont .footerCont .gridInfo img {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+#footer .realFooter {
+  background-color: rgb(246, 246, 247);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 0 0 12px 12px;
+  -webkit-border-radius: 0 0 12px 12px;
+  -moz-border-radius: 0 0 12px 12px;
+  -ms-border-radius: 0 0 12px 12px;
+  -o-border-radius: 0 0 12px 12px;
+}
+
+#footer .realFooter .realFooterCont {
+  display: flex;
+  align-items: center;
+}
+
+#footer .realFooter .realFooterCont div {
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+  margin-left: 30px;
+}
+
+#footer .realFooter .realFooterCont div:hover {
+  cursor: pointer;
+  color: rgb(58, 58, 58);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
