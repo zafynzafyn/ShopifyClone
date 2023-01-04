@@ -1,0 +1,49 @@
+#heroIII {
+margin-bottom: 50px;
+margin-top: 30px;
+    .mainCont {
+        margin-left: 80px;
+        margin-right: 80px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+
+
+        .community, .blogCont {
+            @include OptionBlog;
+            padding-top: 15px;
+            padding-bottom: 30px;
+            padding-left: 10px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .community {
+            background-color: rgb(244,246,255);
+            border: none;
+            box-shadow: none;
+            .descr {
+                font-size: 1.5rem;
+                font-weight: 500px;
+                color: $titleColor;
+                margin-top: 5px;
+            }
+        }
+
+        .blogCont {
+            .title {
+                color: $titleColor;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            .dscr {
+                color: $descrColor;
+                font-size: 14px;
+                line-height: 1.5rem;
+            }
+        }
+    }
+}

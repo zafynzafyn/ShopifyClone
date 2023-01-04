@@ -1,0 +1,24 @@
+@mixin FlexAlignCen ($justifyCont) {
+    display: flex;
+    align-items: center;
+    justify-content: $justifyCont;
+}
+
+@mixin BorderSolid1Grey {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(109,113,117);
+}
+
+@mixin OptionBlog {
+    background-color: rgb(250,251,251);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-color: rgb(221, 221, 221);
+    box-shadow: 0 2px 0 0 rgb(221, 221, 221);
+}

@@ -1,0 +1,86 @@
+#heroI {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    
+}
+.heroBod {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    height: 100%;
+    width: 100%;
+}
+.mainInfo {
+    margin-top: 100px;
+    padding-left: 80px;
+    
+
+    h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .descI {
+        font-size: 18px;
+        color: $descrColor;
+        margin-top: 25px;
+        margin-bottom: 35px;
+        line-height: 2rem;
+    }
+    .titleInfo {
+        font-size: 20px;
+        color: $titleColor;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+   
+    .descII {
+        color: $descrColor;
+        margin-bottom: 20px;
+        line-height: 1.5rem;
+
+
+    }
+    span {
+        color: $descrColor;
+        text-decoration: underline $descrColor;
+    }
+
+}
+
+.optionBtnCont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    .optionBtn {
+       @include FlexAlignCen(start);
+       @include OptionBlog;
+        padding: 10px;
+       
+        .btnspan{
+            color: $titleColor;
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-decoration: none;
+       }
+        img {
+            margin-right: 15px;
+        }
+
+        &.optionBtn:hover {
+            cursor: pointer;
+            box-shadow: 0 4px 0 0 rgb(221, 221, 221);
+}
+    }
+}
+
+
+.bgImg {
+    position: absolute;
+    right: -220px;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
